@@ -1,10 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Diagnostics;
 using System.Windows.Forms;
+
+
+/*******************************************************************/
+
+/* Original File Name: Form2.cs                                    */
+
+/* Date: 01-05-2018                                                */
+
+/* Developer: ArtemGord1728                                        */
+
+/* Copyright © 2018 ArtemGord1728. All rights reserved             */
+
+/* Description: Main program functionality                         */
+
+/*******************************************************************/
+
 
 namespace CodyHelper
 {
