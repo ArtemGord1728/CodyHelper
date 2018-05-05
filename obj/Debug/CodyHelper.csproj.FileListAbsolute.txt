@@ -26,3 +26,17 @@ D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\obj\Debug\Cod
 D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\obj\Debug\CodyHelper.csproj.CopyComplete
 D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\obj\Debug\CodyHelper.exe
 D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\obj\Debug\CodyHelper.pdb
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\bin\Debug\CodyHelper.exe.config
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\bin\Debug\CodyHelper.exe
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\bin\Debug\CodyHelper.pdb
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\bin\Debug\Microsoft.Speech.dll
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.csprojResolveAssemblyReference.cache
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.Form1.resources
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.Form2.resources
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.Form3.resources
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.Properties.Resources.resources
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.csproj.GenerateResource.cache
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.csproj.CoreCompileInputs.cache
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.csproj.CopyComplete
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.exe
+D:\Мои программы WPF и WinForms\CodyHelper\CodyHelper\CodyHelper\obj\Debug\CodyHelper.pdb

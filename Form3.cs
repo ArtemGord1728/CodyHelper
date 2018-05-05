@@ -10,9 +10,9 @@ using System.Globalization;
 
 /*******************************************************************/
 
-/* Original File Name: Form3.cs                                    */
+/* File Name: Form3.cs                                             */
 
-/* Date: 01-05-2018                                                */
+/* Date of creation: 01-05-2018                                    */
 
 /* Developer: ArtemGord1728                                        */
 
@@ -114,6 +114,7 @@ namespace CodyHelper
             var com8 = new SemanticResultValue("Андроид Студио", @"D:\Android Studio\bin\studio.exe");
             var com9 = new SemanticResultValue("командную строку","cmd");
             var com10 = new SemanticResultValue("редактор реестра","regedit");
+            var com11 = new SemanticResultValue("функцию выключения компьютера", "shutdown -r -t 0");
 
             return new Choices(com1, com2, com3, com4, com5, com6,com7,com8,com9,com10);
         }
@@ -174,8 +175,6 @@ namespace CodyHelper
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            
-
             DialogResult dialogResult = MessageBox.Show("Вы уверенны, что хотите выключить данную функцию?" +
                 " Выключение функции полностью закроет приложение", "Закрытие приложения", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 

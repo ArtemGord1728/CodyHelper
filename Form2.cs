@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 /*******************************************************************/
 
-/* Original File Name: Form2.cs                                    */
+/* File Name: Form2.cs                                             */
 
 /* Date: 01-05-2018                                                */
 
@@ -29,7 +29,7 @@ namespace CodyHelper
 
         private void btn_Off_Click(object sender, EventArgs e)
         {
-            Process off = new System.Diagnostics.Process();
+            Process off = new Process();
 
             off.StartInfo.FileName = "cmd.exe";
             off.StartInfo.Arguments = "/c shutdown /s /t 0";
@@ -38,7 +38,7 @@ namespace CodyHelper
 
         private void btn_Direct_Click(object sender, EventArgs e)
         {
-            Process dir = new System.Diagnostics.Process();
+            Process dir = new Process();
 
             dir.StartInfo.FileName = "cmd.exe";
             dir.StartInfo.Arguments = "/c dxdiag";
@@ -47,7 +47,7 @@ namespace CodyHelper
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Process clean = new System.Diagnostics.Process();
+            Process clean = new Process();
 
             clean.StartInfo.FileName = "cmd.exe";
             clean.StartInfo.Arguments = "/c cleanmgr";
@@ -56,7 +56,7 @@ namespace CodyHelper
 
         private void button_Man_Click(object sender, EventArgs e)
         {
-            Process clean = new System.Diagnostics.Process();
+            Process clean = new Process();
 
             clean.StartInfo.FileName = "cmd.exe";
             clean.StartInfo.Arguments = "/c explorer";
@@ -65,7 +65,7 @@ namespace CodyHelper
 
         private void btn_Ref_Click(object sender, EventArgs e)
         {
-            Process _ref = new System.Diagnostics.Process();
+            Process _ref = new Process();
 
             _ref.StartInfo.FileName = "cmd.exe";
             _ref.StartInfo.Arguments = "/c shutdown -r -t 0";
@@ -74,7 +74,7 @@ namespace CodyHelper
 
         private void btn_Reestr_Click(object sender, EventArgs e)
         {
-            Process reest = new System.Diagnostics.Process();
+            Process reest = new Process();
 
             reest.StartInfo.FileName = "cmd.exe";
             reest.StartInfo.Arguments = "/c regedit";
@@ -83,7 +83,7 @@ namespace CodyHelper
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Process speed = new System.Diagnostics.Process();
+            Process speed = new Process();
 
             speed.StartInfo.FileName = "cmd.exe";
             speed.StartInfo.Arguments = "/c perfmon";
@@ -92,7 +92,7 @@ namespace CodyHelper
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Process symbol = new System.Diagnostics.Process();
+            Process symbol = new Process();
 
             symbol.StartInfo.FileName = "cmd.exe";
             symbol.StartInfo.Arguments = "/c charmap";
@@ -101,7 +101,7 @@ namespace CodyHelper
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Process symbol = new System.Diagnostics.Process();
+            Process symbol = new Process();
 
             symbol.StartInfo.FileName = "cmd.exe";
             symbol.StartInfo.Arguments = "/c dxdiag";
@@ -111,16 +111,13 @@ namespace CodyHelper
         private void btn_Back_Click(object sender, EventArgs e)
         {
             Hide();
-
             Form1 form1 = new Form1();
-
             form1.Show();
         }
 
         private void btn_codyVoice_Click(object sender, EventArgs e)
         {
             Form3 form3 = new Form3();
-
             form3.Show();
         }
     }
