@@ -122,7 +122,6 @@ namespace CodyHelper
             var com8 = new SemanticResultValue("Андроид Студио", @"D:\Android Studio\bin\studio.exe");
             var com9 = new SemanticResultValue("командную строку","cmd");
             var com10 = new SemanticResultValue("редактор реестра","regedit");
-            var com11 = new SemanticResultValue("функцию выключения компьютера", "/c shutdown /s /t 0");
 
             return new Choices(com1, com2, com3, com4, com5, com6,com7,com8,com9,com10);
         }
